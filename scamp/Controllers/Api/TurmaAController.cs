@@ -11,7 +11,7 @@ namespace scamp.Controllers.Api
         [HttpGet]
         public ActionResult Index()
         {
-            return Ok("olá turma A");
+            return Ok("Bom dia meu colega laranga");
         }
 
 	}
