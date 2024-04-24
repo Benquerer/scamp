@@ -9,5 +9,5 @@ A student-focused social network
 
 
 
-#notas para entrega
+## notas para entrega
   Apagar pastas (Bin, Obj)
