@@ -1,7 +1,7 @@
 # SCamp!
 ## A social platform designed to facilitate connections between students and create a more engaging and digitally connected higher education experience.
 
-### Our features
+### Our features:
 - Feature 1
 - Feature 2
     - Feature 2.1
