@@ -1,8 +1,10 @@
-﻿namespace scamp.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace scamp.Models
 {
 	public class Curso {
 
-        public int cid { get; set; }
+		[Key] public int id { get; set; }
 
         public string name { get; set; }
 

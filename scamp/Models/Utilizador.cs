@@ -1,8 +1,10 @@
-﻿namespace scamp.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace scamp.Models
 {
 	public class Utilizador {
 
-		public int uid { get; set; }
+		[Key] public int id { get; set; }
 
 		public string username { get; set; }
 

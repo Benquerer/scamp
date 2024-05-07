@@ -1,16 +1,14 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace scamp.Models
 {
 	public class Interacao {
 
-		public int iid { get; set; }
-
-
+        [Key] public int id { get; set; }
         [ForeignKey(nameof(Utilizador))]
         public int ownerId { get; set; }
-        public Utilizador utilizadores { get; set; }
-
+        public Utilizador utilizador { get; set; }
         [ForeignKey(nameof(Post))]
         public int postId { get; set; }
         public Post post { get; set; }
