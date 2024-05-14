@@ -18,7 +18,7 @@ namespace scamp.Controllers
 			return View();
 		}
 
-		public IActionResult Privacy()
+		public IActionResult Faq()
 		{
 			return View();
 		}

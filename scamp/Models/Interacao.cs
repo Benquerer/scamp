@@ -9,6 +9,7 @@ namespace scamp.Models
         [ForeignKey(nameof(Utilizador))]
         public int ownerId { get; set; }
         public Utilizador utilizador { get; set; }
+
         [ForeignKey(nameof(Post))]
         public int postId { get; set; }
         public Post post { get; set; }
