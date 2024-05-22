@@ -1,6 +1,6 @@
 ﻿namespace scamp.Models
 {
-	public class Like : Interacao
+	public class Like : Interaction
 	{
 	}
 }

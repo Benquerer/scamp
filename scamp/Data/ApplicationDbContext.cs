@@ -13,11 +13,15 @@ namespace scamp.Data
 		}
 
 		// Add a DbSet for each entity of the application
-		public DbSet<Utilizador> Utilizador { get; set;}
-		public DbSet<Curso> Curso { get; set;}
+		public DbSet<User> User { get; set;}
+
+		public DbSet<Course> Course { get; set;}
+
 		public DbSet<Post> Post { get; set; }
-		public DbSet<Comentario> Comentario { get; set; }
+
+		public DbSet<Comment> Comment { get; set; }
+
 		public DbSet<Like> Like { get; set; }
 
-	}
+    }
 }

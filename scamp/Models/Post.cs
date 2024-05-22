@@ -5,13 +5,15 @@ namespace scamp.Models
 {
 	public class Post {
 
-		[Key] public int id { get; set; }
-		public DateTime datePost { get; set; }
-		public string postText { get; set; }
+		[Key] public int Id { get; set; }
+		public DateTime DatePost { get; set; }
 
-        [ForeignKey(nameof(Utilizador))]
-        public int ownerId { get; set; }
-        public  Utilizador utilizador { get; set; }
+        [Required]
+		public string PostText { get; set; }
+
+        [ForeignKey(nameof(User))]
+        public int UserFK { get; set; }
+        public User User { get; set; }
 
     }
 }
